@@ -35,7 +35,7 @@ public class UserController {
     public ResponseEntity<User> getSingleUser(@PathVariable  String userId){
 
 
-        System.out.println("retryCount : " + retryCount );
+        //System.out.println("retryCount : " + retryCount );
 
         retryCount++;
 
